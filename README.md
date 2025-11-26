@@ -29,7 +29,7 @@ npm install
 ng serve --open
 ```
 
-Backend → http://localhost:5000\
+Backend → http://localhost:5000
 
 Frontend → http://localhost:4200
 
