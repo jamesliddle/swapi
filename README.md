@@ -1,7 +1,7 @@
 # SWAPI (GoEngineer Challenge)
 
 A full-stack Star Wars--themed application built with a **.NET 8 REST
-API** and an **Angular 20 frontend**.\
+API** and an **Angular 20 frontend**.
 
 The project includes **unit tests** and **integration tests** verifying
 backend logic and full HTTP request/response flows.
@@ -321,8 +321,9 @@ You now have:
 
 ## Features
 
--   Modern **.NET 8** backend with EF Core\
--   Angular 20 frontend\
--   Starship CRUD operations\
--   Unit + integration tests\
+-   Modern **.NET 8** backend with EF Core
+-   **Angular 20** frontend
+-   Starship CRUD operations
+-   Unit + integration tests
+-   Database seeded from SWAPI calls on first run
 -   Clean architecture
