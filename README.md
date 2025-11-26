@@ -2,6 +2,7 @@
 
 A full-stack Star Wars--themed application built with a **.NET 8 REST
 API** and an **Angular 20 frontend**.\
+
 The project includes **unit tests** and **integration tests** verifying
 backend logic and full HTTP request/response flows.
 
@@ -29,6 +30,7 @@ ng serve --open
 ```
 
 Backend → http://localhost:5000\
+
 Frontend → http://localhost:4200
 
 That's it!
@@ -60,7 +62,7 @@ That's it!
 
 ## Testing
 
-### Unit Tests --- `StarshipApi.Tests/`
+### Unit Tests:`StarshipApi.Tests/`
 
 Run:
 
@@ -70,7 +72,7 @@ dotnet test StarshipApi.Tests
 
 ------------------------------------------------------------------------
 
-### Integration Tests --- `backend/StarshipApi.IntegrationTests/`
+### Integration Tests: `backend/StarshipApi.IntegrationTests/`
 
 Run:
 
@@ -178,6 +180,7 @@ dotnet ef database update
 ```
 
 If you get a “no EF tools” error, install globally:
+
 `dotnet tool install --global dotnet-ef`
 
 #### 2.4 Run the Backend API
