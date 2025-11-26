@@ -4,51 +4,61 @@ using StarshipApi.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var env = builder.Environment;
+
+bool isIntegrationTest = env.IsEnvironment("IntegrationTests");
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(5000);
+});
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddMemoryCache();
+builder.Services.AddHttpClient();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+{
+    var conn = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseSqlServer(conn);
+});
 
 builder.Services.AddScoped<ISwapiFilmService, SwapiFilmService>();
-builder.Services.AddHttpClient();      // for SWAPI API calls
-builder.Services.AddMemoryCache();     // for title caching
-
 builder.Services.AddScoped<StarshipSeedService>();
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
-        policy.AllowAnyHeader()
-              .AllowAnyMethod()
-              .WithOrigins("http://localhost:4200"));
+    {
+        policy
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials();
+    });
 });
 
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
+if (!isIntegrationTest)
 {
-    var svcs = scope.ServiceProvider;
-    var ctx = svcs.GetRequiredService<AppDbContext>();
-
-    ctx.Database.Migrate(); // ensure database exists / migrations applied
-
-    var seeder = svcs.GetRequiredService<StarshipSeedService>();
-    // Safe to block: seeding only during startup
-    seeder.SeedFromSwapiAsync().GetAwaiter().GetResult();
+    using var scope = app.Services.CreateScope();
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
 }
 
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() && !isIntegrationTest)
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
 app.UseCors("AllowFrontend");
-
 app.MapControllers();
 
 app.Run();
+
+public partial class Program { }

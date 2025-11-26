@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StarshipApi.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17ca4d74890e27c50a360387a6f1b2d00e456d1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1515315f224ad2a7ac0a761b3bbb607006396b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("StarshipApi.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StarshipApi.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

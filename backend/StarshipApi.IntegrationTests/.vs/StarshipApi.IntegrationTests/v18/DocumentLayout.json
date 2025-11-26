@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\peoplelookuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:peoplelookuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\testapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:testapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\filmlookuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:filmlookuptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\starshipapi.integrationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:starshipapi.integrationtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\testapifactoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:testapifactoryextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\fakehttpmessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:fakehttpmessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\starshippaginationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:starshippaginationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|c:\\users\\james\\source\\repos\\starship-app\\backend\\starshipapi.integrationtests\\starshipscontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83F304D-7AF4-C5C2-9F23-32101E33D39C}|StarshipApi.IntegrationTests.csproj|solutionrelative:starshipscontrollerintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeopleLookupTests.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\PeopleLookupTests.cs",
+              "RelativeDocumentMoniker": "PeopleLookupTests.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\PeopleLookupTests.cs",
+              "RelativeToolTip": "PeopleLookupTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:27:51.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FakeHttpMessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\FakeHttpMessageHandler.cs",
+              "RelativeDocumentMoniker": "FakeHttpMessageHandler.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\FakeHttpMessageHandler.cs",
+              "RelativeToolTip": "FakeHttpMessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:13:40.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestApiFactoryExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\TestApiFactoryExtensions.cs",
+              "RelativeDocumentMoniker": "TestApiFactoryExtensions.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\TestApiFactoryExtensions.cs",
+              "RelativeToolTip": "TestApiFactoryExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T00:07:15.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestApiFactory.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\TestApiFactory.cs",
+              "RelativeDocumentMoniker": "TestApiFactory.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\TestApiFactory.cs",
+              "RelativeToolTip": "TestApiFactory.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:25:10.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilmLookupTests.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\FilmLookupTests.cs",
+              "RelativeDocumentMoniker": "FilmLookupTests.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\FilmLookupTests.cs",
+              "RelativeToolTip": "FilmLookupTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:23:53.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StarshipPaginationTests.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\StarshipPaginationTests.cs",
+              "RelativeDocumentMoniker": "StarshipPaginationTests.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\StarshipPaginationTests.cs",
+              "RelativeToolTip": "StarshipPaginationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:16:51.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StarshipsControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\StarshipsControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "StarshipsControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\StarshipsControllerIntegrationTests.cs",
+              "RelativeToolTip": "StarshipsControllerIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T23:11:38.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StarshipApi.IntegrationTests.csproj",
+              "DocumentMoniker": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\StarshipApi.IntegrationTests.csproj",
+              "RelativeDocumentMoniker": "StarshipApi.IntegrationTests.csproj",
+              "ToolTip": "C:\\Users\\james\\source\\repos\\starship-app\\backend\\StarshipApi.IntegrationTests\\StarshipApi.IntegrationTests.csproj",
+              "RelativeToolTip": "StarshipApi.IntegrationTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-25T22:59:52.006Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
